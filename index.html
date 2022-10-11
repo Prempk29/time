@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="icon" href="clock.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body 
+        {
+            background-color: black;
+        }
+        .one 
+        {
+            width: 300px;
+            height: 100px;
+            background:linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
+            margin: auto;
+            margin-top: 20%;
+            border-radius: 9px;
+            animation: animate 2s linear infinite;
+            
+            
+        }
+        .timemama 
+        {
+            width: 280px;
+            font-size: 40px;
+            height: 80px;
+            background-color: black;
+            margin: auto;
+            position: relative;
+            top: 11px;
+            border-radius: 9px;
+            text-align: center;
+            place-content: auto;
+            line-height: 2;
+            color:whitesmoke 
+           
+        }
+        @keyframes animate 
+        {
+            100%
+            {
+                filter: hue-rotate(360deg);
+            }
+        }
+        @media (max-width:600px)
+        {
+           .timemama
+           {
+            width: 180px;
+            font-size: 30px;
+            line-height: 2.5;
+           }   
+           .one{
+            width: 200px;
+            
+           }
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="one">
+       <div class="timemama">
+         <p>12:00:00 AM</p>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
