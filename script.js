@@ -8,7 +8,7 @@ var day="AM";
 if(hours>12)
 {
     day="PM";
-    hours=hours%12;
+    hours=hours-12;
 }
 if(hours<10)
 {
