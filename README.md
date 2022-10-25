@@ -1,2 +1,2 @@
 # time<br>
-https://prempk29.github.io/clock/
+https://prempk29.github.io/time/
